@@ -80,10 +80,6 @@ cmd-ctrl-shift-alt-k = 'focus up'
 cmd-ctrl-shift-alt-l = 'focus right'
 
 
-cmd-ctrl-shift-alt-1 = 'workspace 1'
-cmd-ctrl-shift-alt-2 = 'workspace 2'
-cmd-ctrl-shift-alt-3 = 'workspace 3'
-cmd-ctrl-shift-alt-4 = 'workspace 4'
 cmd-ctrl-shift-alt-a = 'workspace A'
 cmd-ctrl-shift-alt-s = 'workspace S'
 cmd-ctrl-shift-alt-d = 'workspace D'
@@ -126,24 +122,12 @@ shift-r = ['reload-config', 'mode main']
 
 esc = 'mode main'
 
-shift-1 = ['move-node-to-workspace 1', 'mode main']
-shift-2 = ['move-node-to-workspace 2', 'mode main']
-shift-3 = ['move-node-to-workspace 3', 'mode main']
-shift-4 = ['move-node-to-workspace 4', 'mode main']
-shift-a = ['move-node-to-workspace A', 'mode main']
-shift-s = ['move-node-to-workspace S', 'mode main']
-shift-d = ['move-node-to-workspace D', 'mode main']
-shift-f = ['move-node-to-workspace F', 'mode main']
+a = ['move-node-to-workspace A', 'mode main']
+s = ['move-node-to-workspace S', 'mode main']
+d = ['move-node-to-workspace D', 'mode main']
+f = ['move-node-to-workspace F', 'mode main']
 
 
-1 = ['workspace 1', 'mode main']
-2 = ['workspace 2', 'mode main']
-3 = ['workspace 3', 'mode main']
-4 = ['workspace 4', 'mode main']
-a = ['workspace A', 'mode main']
-s = ['workspace S', 'mode main']
-d = ['workspace D', 'mode main']
-f = ['workspace F', 'mode main']
 
 
 
