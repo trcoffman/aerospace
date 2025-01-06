@@ -98,26 +98,26 @@ w = 'mode workspace'
 
 shift-f = ['flatten-workspace-tree', 'mode main'] # reset layout
 b = ['balance-sizes', 'mode main']
+shift-r = ['reload-config', 'mode main']
+
 minus = 'resize smart -50' 
 shift-minus = 'resize smart -300'
 equal = 'resize smart +50'
 shift-equal = 'resize smart +300'
-# h = 'move lefh'
-# j = 'move down'
-# k = 'move up'
-# l = 'move right'
-h = ['move left', 'mode main']
-j = ['move down', 'mode main']
-k = ['move up', 'mode main']
-l = ['move right', 'mode main']
-cmd-ctrl-shift-alt-h = ['join-with left', 'mode main']
-cmd-ctrl-shift-alt-j = ['join-with down', 'mode main']
-cmd-ctrl-shift-alt-k = ['join-with up', 'mode main']
-cmd-ctrl-shift-alt-l = ['join-with right', 'mode main']
-t = ['layout tiles horizontal vertical', 'mode main']
-a = ['layout accordion horizontal vertical', 'mode main']
-f = ['layout floating tiling', 'mode main']
-shift-r = ['reload-config', 'mode main']
+
+h = 'move left'
+j = 'move down'
+k = 'move up'
+l = 'move right'
+
+cmd-ctrl-shift-alt-h = 'join-with left'
+cmd-ctrl-shift-alt-j = 'join-with down'
+cmd-ctrl-shift-alt-k = 'join-with up'
+cmd-ctrl-shift-alt-l = 'join-with right'
+
+t = 'layout tiles horizontal vertical'
+a = 'layout accordion horizontal vertical'
+f = 'layout floating tiling'
 
 
 
