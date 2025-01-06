@@ -79,6 +79,10 @@ cmd-ctrl-shift-alt-j = 'focus down'
 cmd-ctrl-shift-alt-k = 'focus up'
 cmd-ctrl-shift-alt-l = 'focus right'
 
+cmd-ctrl-shift-alt-z = 'focus left'
+cmd-ctrl-shift-alt-x = 'focus down'
+cmd-ctrl-shift-alt-c = 'focus up'
+cmd-ctrl-shift-alt-v = 'focus right'
 
 cmd-ctrl-shift-alt-a = 'workspace A'
 cmd-ctrl-shift-alt-s = 'workspace S'
