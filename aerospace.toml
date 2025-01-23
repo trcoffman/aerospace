@@ -106,9 +106,18 @@ equal = 'resize smart +50'
 shift-equal = 'resize smart +300'
 
 h = 'move left'
+shift-h = ['move left', 'mode main']
 j = 'move down'
+shift-j = ['move down', 'mode main']
 k = 'move up'
+shift-k = ['move up', 'mode main']
 l = 'move right'
+shift-l = ['move right', 'mode main']
+
+y = ['join-with left', 'layout accordion horizontal vertical', 'mode main']
+u = ['join-with down', 'layout accordion horizontal vertical', 'mode main']
+i = ['join-with up', 'layout accordion horizontal vertical', 'mode main']
+o = ['join-with right', 'layout accordion horizontal vertical', 'mode main']
 
 cmd-ctrl-shift-alt-h = 'join-with left'
 cmd-ctrl-shift-alt-j = 'join-with down'
@@ -116,7 +125,9 @@ cmd-ctrl-shift-alt-k = 'join-with up'
 cmd-ctrl-shift-alt-l = 'join-with right'
 
 t = 'layout tiles horizontal vertical'
+shift-t = ['layout tiles horizontal vertical', 'mode main']
 a = 'layout accordion horizontal vertical'
+shift-a = ['layout accordion horizontal vertical', 'mode main']
 f = 'layout floating tiling'
 
 
