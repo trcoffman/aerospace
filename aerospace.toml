@@ -69,8 +69,10 @@ A = 'main'
 S = 'main'
 D = 'main'
 F = 'main'
+Q = 'main'
+E = 'main'
+R = 'main'
 G = ['secondary', 'main']
-
 
 # 'main' binding mode declaration
 # See: https://nikitabobko.github.io/AeroSpace/guide#binding-modes
@@ -97,8 +99,11 @@ cmd-ctrl-shift-alt-a = 'workspace A'
 cmd-ctrl-shift-alt-s = 'workspace S'
 cmd-ctrl-shift-alt-d = 'workspace D'
 cmd-ctrl-shift-alt-f = 'workspace F'
+cmd-ctrl-shift-alt-q = 'workspace Q'
+cmd-ctrl-shift-alt-e = 'workspace E'
+cmd-ctrl-shift-alt-r = 'workspace R'
 
-
+cmd-ctrl-shift-alt-g = 'workspace G'
 ################################################################################
 [mode.leader.binding]
 
@@ -151,6 +156,11 @@ a = ['move-node-to-workspace A', 'mode main']
 s = ['move-node-to-workspace S', 'mode main']
 d = ['move-node-to-workspace D', 'mode main']
 f = ['move-node-to-workspace F', 'mode main']
+q = ['move-node-to-workspace Q', 'mode main']
+e = ['move-node-to-workspace E', 'mode main']
+r = ['move-node-to-workspace R', 'mode main']
+
+g = ['move-node-to-workspace G', 'mode main']
 
 
 
