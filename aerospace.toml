@@ -69,9 +69,16 @@ A = 'main'
 S = 'main'
 D = 'main'
 F = 'main'
+
 Q = 'main'
 E = 'main'
 R = 'main'
+
+Z = 'main'
+X = 'main'
+C = 'main'
+V = 'main'
+
 G = ['secondary', 'main']
 
 # 'main' binding mode declaration
@@ -90,18 +97,20 @@ cmd-ctrl-shift-alt-j = 'focus down'
 cmd-ctrl-shift-alt-k = 'focus up'
 cmd-ctrl-shift-alt-l = 'focus right'
 
-cmd-ctrl-shift-alt-z = 'focus left'
-cmd-ctrl-shift-alt-x = 'focus down'
-cmd-ctrl-shift-alt-c = 'focus up'
-cmd-ctrl-shift-alt-v = 'focus right'
 
 cmd-ctrl-shift-alt-a = 'workspace A'
 cmd-ctrl-shift-alt-s = 'workspace S'
 cmd-ctrl-shift-alt-d = 'workspace D'
 cmd-ctrl-shift-alt-f = 'workspace F'
+
 cmd-ctrl-shift-alt-q = 'workspace Q'
 cmd-ctrl-shift-alt-e = 'workspace E'
 cmd-ctrl-shift-alt-r = 'workspace R'
+
+cmd-ctrl-shift-alt-z = 'workspace Z'
+cmd-ctrl-shift-alt-x = 'workspace X'
+cmd-ctrl-shift-alt-c = 'workspace C'
+cmd-ctrl-shift-alt-v = 'workspace V'
 
 cmd-ctrl-shift-alt-g = 'workspace G'
 ################################################################################
@@ -156,12 +165,17 @@ a = ['move-node-to-workspace A', 'mode main']
 s = ['move-node-to-workspace S', 'mode main']
 d = ['move-node-to-workspace D', 'mode main']
 f = ['move-node-to-workspace F', 'mode main']
+
 q = ['move-node-to-workspace Q', 'mode main']
 e = ['move-node-to-workspace E', 'mode main']
 r = ['move-node-to-workspace R', 'mode main']
 
 g = ['move-node-to-workspace G', 'mode main']
 
+z = ['move-node-to-workspace Z', 'mode main']
+x = ['move-node-to-workspace X', 'mode main']
+c = ['move-node-to-workspace C', 'mode main']
+v = ['move-node-to-workspace V', 'mode main']
 
 
 
